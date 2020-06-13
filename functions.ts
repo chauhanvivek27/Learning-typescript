@@ -4,8 +4,8 @@ function getSum(num1: number, num2: number): number{
 
 //console.log(getSum(2,3));
 
-let getName = function(firstname: string , lastname?:string): string {
-    return `${firstname} ${lastname}`;
+let getName = function(firstName: string , lastName?:string): string {
+    return `${firstName} ${lastName}`;
 }
 
 console.log(getName('Vivek'))
